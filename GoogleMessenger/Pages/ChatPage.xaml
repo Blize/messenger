@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GoogleMessenger.Pages.ChatPage"
+             Title="ChatPage">
+    <VerticalStackLayout>
+       <Label
+          FontSize="30"
+          FontAttributes="Bold"
+          Text="Chat"
+          VerticalOptions="Center" 
+          HorizontalOptions="Center" />
+
+        <Label
+            Text="Marvin - Torsten"
+            HorizontalOptions="Center"
+            Margin="0, 0, 0, 30"
+            />
+        <!-- 1 Text -->
+        <Border
+        Stroke="#0000"
+        StrokeThickness="4"
+        Background="LightBlue"
+        Padding="10"
+        HorizontalOptions="Start"
+        MaximumWidthRequest="155"
+        >
+   
+        <Label
+           Text="Hey wie geht es dir?"
+           TextColor="Black"
+           FontAttributes="Bold" />
+
+        </Border>
+
+        <!-- 2 Text -->
+        <Border
+        Stroke="#0000"
+        StrokeThickness="4"
+        Background="Lightgray"
+        Padding="10"
+        HorizontalOptions="End"
+        MaximumWidthRequest="155"
+        >
+   
+        <Label
+           Text="Gut, und dir?"
+           TextColor="Black"
+           FontAttributes="Bold" />
+        </Border>
+
+        <!-- 3 Text -->
+        <Border
+        Stroke="#0000"
+        StrokeThickness="4"
+        Background="LightBlue"
+        Padding="10"
+        HorizontalOptions="Start"
+        MaximumWidthRequest="155"
+        >
+   
+        <Label
+           Text="Es geht habe viel stress momentan und dadurch leider
+           wenig zeit für Sport!
+           "
+           TextColor="Black"
+           FontAttributes="Bold" />
+        </Border>
+
+        <!-- 4 Text -->
+        <Border
+        Stroke="#0000"
+        StrokeThickness="4"
+        Background="LightBlue"
+        Padding="10"
+        HorizontalOptions="Start"
+        MaximumWidthRequest="155"
+        >
+   
+        <Label
+           Text="Und leider habe ich auch noch eine leichte Erkältung"
+           TextColor="Black"
+           FontAttributes="Bold" />
+        </Border>
+
+
+        <!-- 5 Text -->
+        <Border
+        Stroke="#0000"
+        StrokeThickness="4"
+        Background="LightGray"
+        Padding="10"
+        HorizontalOptions="End"
+        MaximumWidthRequest="155"
+        >
+   
+        <Label
+           Text="Uff, das ist Natülich nicht so gut... Kann ich dir
+           irgendwie helfen?
+           "
+           TextColor="Black"
+           FontAttributes="Bold" />
+        </Border>
+
+        <!-- 6 Text -->
+
+        <Border
+        Stroke="#0000"
+        StrokeThickness="4"
+        Background="LightBlue"
+        Padding="10"
+        HorizontalOptions="Start"
+        MaximumWidthRequest="155"
+        >
+   
+        <Label
+           Text="Nein nein. Es bessert sich langsam, aber danke fürs angebot
+           "
+           TextColor="Black"
+           FontAttributes="Bold" />
+        </Border>
+
+        <!--7 Text -->
+        
+        <Border
+        Stroke="#0000"
+        StrokeThickness="4"
+        Background="LightGray"
+        Padding="10"
+        HorizontalOptions="End"
+        MaximumWidthRequest="155"
+        >
+   
+        <Label
+           Text="Ok das ist gut! Falls doch was ist schreib einfach :)
+           "
+           TextColor="Black"
+           FontAttributes="Bold" />
+        </Border>
+    </VerticalStackLayout>
+</ContentPage>

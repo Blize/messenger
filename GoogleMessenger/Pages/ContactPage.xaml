@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="clr-namespace:GoogleMessenger.Pages"
+             x:DataType="pages:ContactPage"
+             x:Class="GoogleMessenger.Pages.ContactPage"
+             Title="ContactPage"
+             >
+<VerticalStackLayout>
+
+        <Label
+            Text="Username"
+            FontSize="Large"
+            HorizontalTextAlignment="Center"
+            Margin="10"
+            />
+
+        <!-- 1 CONTACT -->
+    <Border
+    Stroke="#000"
+    StrokeThickness="1"
+    Padding="15"
+    WidthRequest="390"
+    HorizontalOptions="Center"
+    >
+       
+       <Label
+        Text="Marvin - 079 44 232 23 22"
+        HorizontalTextAlignment="Center"
+       /> 
+    </Border>
+        <!-- 2 CONTACT -->
+       <Border
+    Stroke="#000"
+    StrokeThickness="1"
+    Padding="15"
+    WidthRequest="390"
+    HorizontalOptions="Center">
+       
+       <Label
+        Text="Torsten - 079 34 432 93 29"
+        HorizontalTextAlignment="Center"
+       /> 
+    </Border>
+        <!-- 3 CONTACT -->
+       <Border
+    Stroke="#000"
+    StrokeThickness="1"
+    Padding="15"
+    WidthRequest="390"
+    HorizontalOptions="Center">
+       
+       <Label
+        Text="Lilia - 076 45 435 22 32"
+        HorizontalTextAlignment="Center"
+       /> 
+    </Border>
+        <!-- 4 CONTACT -->
+       <Border
+    Stroke="#000"
+    StrokeThickness="1"
+    Padding="15"
+    WidthRequest="390"
+    HorizontalOptions="Center">
+       
+       <Label
+        Text="Tabea - 079 93 455 33 19"
+        HorizontalTextAlignment="Center"
+       /> 
+    </Border>
+        <!-- 5 CONTACT -->
+   <Border
+    Stroke="#000"
+    StrokeThickness="1"
+    Padding="15"
+    WidthRequest="390"
+    HorizontalOptions="Center">
+       
+       <Label
+        Text="Jan - 079 88 828 13 79"
+        HorizontalTextAlignment="Center"
+       /> 
+    </Border>
+        <!-- 6 CONTACT -->
+   <Border
+    Stroke="#000"
+    StrokeThickness="1"
+    Padding="15"
+    WidthRequest="390"
+    HorizontalOptions="Center">
+       
+       <Label
+        Text="Matthias - 079 79 465 79 99"
+        HorizontalTextAlignment="Center"
+       /> 
+    </Border>
+        <!-- 7 CONTACT -->
+    <Border
+    Stroke="#000"
+    StrokeThickness="1"
+    Padding="15"
+    WidthRequest="390"
+    HorizontalOptions="Center">
+       
+       <Label
+        Text="Annika - 079 66 899 12 22"
+        HorizontalTextAlignment="Center"
+       /> 
+    </Border>
+        <!-- 8 CONTACT -->
+<Border
+    Stroke="#000"
+    StrokeThickness="1"
+    Padding="15"
+    WidthRequest="390"
+    HorizontalOptions="Center">
+       
+       <Label
+        Text="Kevin - 078 22 420 69 22"
+        HorizontalTextAlignment="Center"
+       /> 
+    </Border>
+        <!-- 9 CONTACT -->
+       <Border
+    Stroke="#000"
+    StrokeThickness="1"
+    Padding="15"
+    WidthRequest="390"
+    HorizontalOptions="Center">
+       
+       <Label
+        Text="Joel - 079 11 222 33 44"
+        HorizontalTextAlignment="Center"
+       /> 
+    </Border>
+        <!-- 10 CONTACT -->
+       <Border
+    Stroke="#000"
+    StrokeThickness="1"
+    Padding="15"
+    WidthRequest="390"
+    HorizontalOptions="Center">
+       
+       <Label
+        Text="Julian - 076 23 444 32 78"
+        HorizontalTextAlignment="Center"
+       /> 
+    </Border>
+        <!-- 11 CONTACT -->
+       <Border
+    Stroke="#000"
+    StrokeThickness="1"
+    Padding="15"
+    WidthRequest="390"
+    HorizontalOptions="Center">
+       
+       <Label
+        Text="Peter - 079 44 232 12 36"
+        HorizontalTextAlignment="Center"
+       /> 
+    </Border>
+        <!-- 12 CONTACT -->
+   <Border
+    Stroke="#000"
+    StrokeThickness="1"
+    Padding="15"
+    WidthRequest="390"
+    HorizontalOptions="Center">
+       
+       <Label
+        Text="Gewa - 079 55 532 81 32"
+        HorizontalTextAlignment="Center"
+       /> 
+    </Border>
+     
+    <Button
+        Margin="20"
+        WidthRequest="100"
+        HeightRequest="50"
+        Text="Chat"
+        Clicked="GoToChatPage_Clicked"
+        />
+
+</VerticalStackLayout>
+
+    <!--
+
+    Funktioniert leider nicht wäre aber deutlich Cooler
+
+    <ListView ItemsSource="{Binding Contact}">
+    <ListView.ItemTemplate>
+        <DataTemplate>
+            <ViewCell>
+                <Grid Padding="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.RowSpan="2"
+                           Source="{Binding ImageSource}"
+                           Aspect="AspectFill"
+                           HeightRequest="60"
+                           WidthRequest="60" />
+                    <Label Grid.Column="1"
+                           Text="{Binding Username}"
+                           FontAttributes="Bold" />
+                    <Label Grid.Row="1"
+                           Grid.Column="1"
+                           Text="{Binding LastMessage}"
+                           FontAttributes="Italic"
+                           VerticalOptions="End" />
+                 </Grid>
+            </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+    -->
+
+</ContentPage>
