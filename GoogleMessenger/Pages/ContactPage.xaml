@@ -159,28 +159,15 @@
         HorizontalTextAlignment="Center"
        /> 
     </Border>
-        <!-- 12 CONTACT -->
-   <Border
-    Stroke="#000"
-    StrokeThickness="1"
-    Padding="15"
-    WidthRequest="390"
-    HorizontalOptions="Center">
        
-       <Label
-        Text="Gewa - 079 55 532 81 32"
-        HorizontalTextAlignment="Center"
-       /> 
-    </Border>
-     
-    <Button
-        Margin="20"
-        WidthRequest="100"
-        HeightRequest="50"
-        Text="Chat"
-        Clicked="GoToChatPage_Clicked"
-        />
-
+    <StackLayout Margin="20">
+    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+      <Button Text="Chat" Clicked="GoToChatPage_Clicked" Margin="10" WidthRequest="100" HeightRequest="50"/>
+      <Button Text="Settings" Clicked="GoToSettings_Clicked" Margin="10" WidthRequest="100" HeightRequest="50"/>
+    </StackLayout>
+    
+</StackLayout>
+           
 </VerticalStackLayout>
 
     <!--

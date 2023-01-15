@@ -43,4 +43,8 @@ public partial class ContactPage : ContentPage
         await Shell.Current.GoToAsync("ChatPage");
     }
 
+    async void GoToSettings_Clicked(System.Object sender, System.EventArgs e)
+    {
+        await Shell.Current.GoToAsync("SettingsPage");
+    }
 }
