@@ -6,4 +6,9 @@ public partial class SettingsPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    async void GoToAdvancedSettings(System.Object sender, System.EventArgs e)
+    {
+		await Shell.Current.GoToAsync("AdvancedSettings");
+    }
 }

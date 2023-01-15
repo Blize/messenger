@@ -68,5 +68,8 @@
 	  <MauiXaml Update="Pages\SettingsPage.xaml">
 	    <SubType></SubType>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\AdvancedSettings.xaml">
+	    <SubType></SubType>
+	  </MauiXaml>
 	</ItemGroup>
 </Project>

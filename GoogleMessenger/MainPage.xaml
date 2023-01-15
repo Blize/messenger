@@ -28,6 +28,7 @@
             />
 
             <Button
+                BackgroundColor="DarkRed"
                 x:Name="GoToContactPageBtn"
                 Text="Home"
                 SemanticProperties.Hint="Counts the number of times you click"

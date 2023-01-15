@@ -10,11 +10,19 @@
             Margin="10"
             HorizontalOptions="Center" />
 
-        <Border BackgroundColor="DarkRed" Margin="20" StrokeShape="RoundRectangle 20,20,20,20" Padding="20">
-            <Label
-                TextColor="White"
-                Text="Hello"
-                />
+        <Border BackgroundColor="DarkRed" Margin="20" StrokeShape="RoundRectangle 20,20,20,20">
+            <StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label Text="LightMode" Margin="15" TextColor="White" FontAttributes="Bold" HorizontalOptions="Start"/>
+                    <Switch IsToggled="true"/>
+                </StackLayout>
+    
+            </StackLayout>
+        </Border>
+
+        <Border BackgroundColor="DarkRed" Margin="20" StrokeShape="RoundRectangle 20,20,20,20">
+            <Button Text="Advanced Settings" BackgroundColor="DarkRed" Clicked="GoToAdvancedSettings"/>
+
         </Border>
     </VerticalStackLayout>
 </ContentPage>
