@@ -6,226 +6,48 @@
              x:Class="GoogleMessenger.Pages.ContactPage"
              Title="ContactPage"
              >
+
 <VerticalStackLayout>
-
-        <Label
-            Text="Username"
-            FontSize="Large"
-            HorizontalTextAlignment="Center"
-            Margin="10"
-            />
-
-        <!-- 1 CONTACT -->
-    <Border
-    Stroke="#000"
-    StrokeThickness="1"
-    WidthRequest="390"
-    HorizontalOptions="Center"
-    > 
-      <StackLayout>
-        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-            <Image Source="dotnet_bot.svg" WidthRequest="50" HeightRequest="50"/>
-            <Label Text="Marvin - 079 32 122 33 99" VerticalOptions="Center" Padding="55, 0, 0 , 0"/>
-        </StackLayout>
-    
-      </StackLayout>
-    </Border>
-        <!-- 2 CONTACT -->
-    <Border
-    Stroke="#000"
-    StrokeThickness="1"
-    WidthRequest="390"
-    HorizontalOptions="Center"
-    > 
-      <StackLayout>
-        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-            <Image Source="dotnet_bot.svg" WidthRequest="50" HeightRequest="50"/>
-            <Label Text="Torsten - 079 22 322 22 19" VerticalOptions="Center" Padding="55, 0, 0 , 0"/>
-        </StackLayout>
-    
-      </StackLayout>
-    </Border>
-        <!-- 3 CONTACT -->
-    <Border
-    Stroke="#000"
-    StrokeThickness="1"
-    WidthRequest="390"
-    HorizontalOptions="Center"
-    > 
-      <StackLayout>
-        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-            <Image Source="dotnet_bot.svg" WidthRequest="50" HeightRequest="50"/>
-            <Label Text="Lilia - 078 21 182 35 69" VerticalOptions="Center" Padding="55, 0, 0 , 0"/>
-        </StackLayout>
-    
-      </StackLayout>
-    </Border>
-        <!-- 4 CONTACT -->
-      <Border
-    Stroke="#000"
-    StrokeThickness="1"
-    WidthRequest="390"
-    HorizontalOptions="Center"
-    > 
-      <StackLayout>
-        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-            <Image Source="dotnet_bot.svg" WidthRequest="50" HeightRequest="50"/>
-            <Label Text="Tabea - 076 88 811 63 44" VerticalOptions="Center" Padding="55, 0, 0 , 0"/>
-        </StackLayout>
-    
-      </StackLayout>
-    </Border>
-        <!-- 5 CONTACT -->
-     <Border
-    Stroke="#000"
-    StrokeThickness="1"
-    WidthRequest="390"
-    HorizontalOptions="Center"
-    > 
-      <StackLayout>
-        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-            <Image Source="dotnet_bot.svg" WidthRequest="50" HeightRequest="50"/>
-            <Label Text="Jan - 079 82 525 13 89" VerticalOptions="Center" Padding="55, 0, 0 , 0"/>
-        </StackLayout>
-    
-      </StackLayout>
-    </Border>
-        <!-- 6 CONTACT -->
-     <Border
-    Stroke="#000"
-    StrokeThickness="1"
-    WidthRequest="390"
-    HorizontalOptions="Center"
-    > 
-      <StackLayout>
-        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-            <Image Source="dotnet_bot.svg" WidthRequest="50" HeightRequest="50"/>
-            <Label Text="Matthias - 079 79 456 79 99" VerticalOptions="Center" Padding="55, 0, 0 , 0"/>
-        </StackLayout>
-    
-      </StackLayout>
-    </Border>
-        <!-- 7 CONTACT -->
-      <Border
-    Stroke="#000"
-    StrokeThickness="1"
-    WidthRequest="390"
-    HorizontalOptions="Center"
-    > 
-      <StackLayout>
-        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-            <Image Source="dotnet_bot.svg" WidthRequest="50" HeightRequest="50"/>
-            <Label Text="Annika - 079 44 555 63 79" VerticalOptions="Center" Padding="55, 0, 0 , 0"/>
-        </StackLayout>
-    
-      </StackLayout>
-    </Border>
-        <!-- 8 CONTACT -->
-   <Border
-    Stroke="#000"
-    StrokeThickness="1"
-    WidthRequest="390"
-    HorizontalOptions="Center"
-    > 
-      <StackLayout>
-        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-            <Image Source="dotnet_bot.svg" WidthRequest="50" HeightRequest="50"/>
-            <Label Text="Kevin - 074 12 727 39 91" VerticalOptions="Center" Padding="55, 0, 0 , 0"/>
-        </StackLayout>
-    
-      </StackLayout>
-    </Border>
-        <!-- 9 CONTACT -->
-       <Border
-    Stroke="#000"
-    StrokeThickness="1"
-    WidthRequest="390"
-    HorizontalOptions="Center"
-    > 
-      <StackLayout>
-        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-            <Image Source="dotnet_bot.svg" WidthRequest="50" HeightRequest="50"/>
-            <Label Text="Joel - 079 42 420 42 69" VerticalOptions="Center" Padding="55, 0, 0 , 0"/>
-        </StackLayout>
-    
-      </StackLayout>
-    </Border>
-        <!-- 10 CONTACT -->
-       <Border
-    Stroke="#000"
-    StrokeThickness="1"
-    WidthRequest="390"
-    HorizontalOptions="Center"
-    > 
-      <StackLayout>
-        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-            <Image Source="dotnet_bot.svg" WidthRequest="50" HeightRequest="50"/>
-            <Label Text="Julian - 029 42 222 13 19" VerticalOptions="Center" Padding="55, 0, 0 , 0"/>
-        </StackLayout>
-    
-      </StackLayout>
-    </Border>
-        <!-- 11 CONTACT -->
-    <Border
-    Stroke="#000"
-    StrokeThickness="1"
-    WidthRequest="390"
-    HorizontalOptions="Center"
-    > 
-      <StackLayout>
-        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
-            <Image Source="dotnet_bot.svg" WidthRequest="50" HeightRequest="50"/>
-            <Label Text="Peter - 079 32 882 12 36" VerticalOptions="Center" Padding="55, 0, 0 , 0"/>
-        </StackLayout>
-    
-      </StackLayout>
-    </Border>
-       
-    <StackLayout Margin="20">
-    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-      <Button Text="Chat" Clicked="GoToChatPage_Clicked" Margin="10" WidthRequest="100" HeightRequest="50" BackgroundColor="DarkRed"/>
-      <Button Text="Settings" Clicked="GoToSettings_Clicked" Margin="10" WidthRequest="100" HeightRequest="50" BackgroundColor="DarkRed"/>
-    </StackLayout>
-    
-</StackLayout>
-           
-</VerticalStackLayout>
-
-    <!--
-
-    Funktioniert leider nicht wäre aber deutlich Cooler
-
     <ListView ItemsSource="{Binding Contact}">
     <ListView.ItemTemplate>
         <DataTemplate>
             <ViewCell>
-                <Grid Padding="10">
+                <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="35" />
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="70" />
                         <ColumnDefinition Width="Auto" />
                     </Grid.ColumnDefinitions>
-                    <Image Grid.RowSpan="2"
+                    <ImageButton
+                           Grid.RowSpan="2"
+                           x:DataType="pages:User"
                            Source="{Binding ImageSource}"
+                           Clicked="GoToChatPage_Clicked"
                            Aspect="AspectFill"
                            HeightRequest="60"
                            WidthRequest="60" />
                     <Label Grid.Column="1"
+                           x:DataType="pages:User"
                            Text="{Binding Username}"
                            FontAttributes="Bold" />
                     <Label Grid.Row="1"
+                           x:DataType="pages:User"
                            Grid.Column="1"
                            Text="{Binding LastMessage}"
-                           FontAttributes="Italic"
-                           VerticalOptions="End" />
+                           FontAttributes="Italic" />
                  </Grid>
             </ViewCell>
         </DataTemplate>
       </ListView.ItemTemplate>
     </ListView>
-    -->
+  
+
+    <Button Text="Settings" Clicked="GoToSettings_Clicked" Margin="10" WidthRequest="100" HeightRequest="50" BackgroundColor="DarkRed"/>
+</VerticalStackLayout>
+
+
 
 </ContentPage>

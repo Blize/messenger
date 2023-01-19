@@ -7,6 +7,7 @@ namespace GoogleMessenger.Pages
         public string Email { get; set; }
         public string LastMessage { get; set; }
         public string ImageSource { get; set; }
+        public bool GroupChat { get; set; }
     }
 }
 
